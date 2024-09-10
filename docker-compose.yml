@@ -73,7 +73,7 @@ services:
 
   client:
     build: client
-    command: ["npm", "start"]
+    command: ["npm", "run", "dev"]
     volumes:
       - ./client:/frontend
       - node-modules:/frontend/node_modules

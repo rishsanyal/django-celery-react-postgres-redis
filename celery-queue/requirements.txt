@@ -1,0 +1,4 @@
+celery==5.2.7
+flower
+redis
+watchdog==2.1.5
